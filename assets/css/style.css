@@ -17,6 +17,12 @@ body {
 }
 header {
     background-color: #053b50;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 4px 4px #64ccc5;
+
 }
 h1 {
     font-family: 'Shantell Sans', sans-serif;
