@@ -24,9 +24,29 @@ header {
     box-shadow: 0 4px 4px #64ccc5;
 
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 h1 {
     font-family: 'Shantell Sans', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color:beige;
+
+
       
+}
+#menu{
+    font-size:100%;
+    letter-spacing: normal;
+    list-style-type: none;
+
+}
+
+.active {
+    border-color: #f7f9f9;
+    border-bottom: 4px solid #eeeeee;
 }
 main {
     background-color: #176B87;
