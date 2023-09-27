@@ -13,10 +13,16 @@ body {
     flex-direction: column;
     /*Projects styles*/
     color: #eeeeee;
-    font-family: 'santell sans', sans-serif  ;
+    font-family: 'Shantell Sans', sans-serif;
 }
 header {
     background-color: #053b50;
+}
+h1 {
+    font-family: 'Shantell Sans', sans-serif;
+    font-weight: 600;
+
+    
 }
 main {
     background-color: #176B87;

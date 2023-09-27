@@ -122,3 +122,4 @@ Congratulations on completing your Readme, you have made another big stride in t
 ## Other
 
 - This README is based on : (https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+- Used the loverunning guide to make an icon library to show a hamburger menu. Because all i couldnt find any other method to make it without javascript.
