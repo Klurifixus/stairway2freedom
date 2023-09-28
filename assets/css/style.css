@@ -38,11 +38,19 @@ h1 {
     letter-spacing: 4px;
     color:#ffffff;
     text-shadow:2px 2px 1px #050a0c;
+         
+}
+/*heading on posts*/
+.post-text {
+    font-family: 'Shantell Sans', sans-serif;
+    color: #050a0c;
+    text-shadow: #eeeeee;
     
 
 
-      
 }
+
+
 
 #menu{
     font-size:100%;
