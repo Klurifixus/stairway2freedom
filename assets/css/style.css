@@ -86,7 +86,7 @@ main {
     background-color: #176B87;
     /*push footer down flex*/
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 48px;
 }
 footer {
     background-color: #64ccc5;
