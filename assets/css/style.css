@@ -36,7 +36,7 @@ h1 {
     font-family: 'Shantell Sans', sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    color:beige;
+    color:#ffffff;
 
 
       
@@ -53,8 +53,6 @@ h1 {
     margin-bottom: 1em;
 }
 
-
-
 .active {
     border-color: #f7f9f9;
     border-bottom: 4px solid #eeeeee;
@@ -62,7 +60,7 @@ h1 {
 /*Navbar style with dropdown toggle*/
 nav{
     position: absolute;
-    background-color: #176B87;
+    background-color: #053b50;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -92,4 +90,48 @@ main {
 }
 footer {
     background-color: #64ccc5;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-color: #f7f9f9;
+        border-bottom: 4px solid #eeeeee;
+    }
 }
