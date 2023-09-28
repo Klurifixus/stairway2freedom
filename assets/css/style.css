@@ -22,6 +22,10 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 4px 4px #64ccc5;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+
 
 }
 header a {
@@ -37,6 +41,7 @@ h1 {
 
       
 }
+
 #menu{
     font-size:100%;
     letter-spacing: normal;
@@ -44,10 +49,41 @@ h1 {
 
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
+
+
 .active {
     border-color: #f7f9f9;
     border-bottom: 4px solid #eeeeee;
 }
+/*Navbar style with dropdown toggle*/
+nav{
+    position: absolute;
+    background-color: #176B87;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #eeeeee;
+    display: none;
+    top:100%;
+
+}
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 main {
     background-color: #176B87;
     /*push footer down flex*/
