@@ -91,7 +91,14 @@ main {
 footer {
     background-color: #64ccc5;
 }
-
+/*Footer social media icons*/
+.social-icons {
+    text-align: center;
+}
+.social-icons a {
+    margin-right: 40px;
+    color:#ffffff;
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
