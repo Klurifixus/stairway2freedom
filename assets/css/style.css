@@ -37,6 +37,7 @@ h1 {
     text-transform: capitalize;
     letter-spacing: 4px;
     color:#ffffff;
+    text-shadow:2px 2px 1px #050a0c;
     
 
 
@@ -93,13 +94,20 @@ main {
 .hero {
 
 background: url(../images/pier-bus-long.jpg) no-repeat center center/cover;
-height: 270px; 
+height: 400px; 
 width:100%;
 
 }
 .hero-content {
+    display:flex;
     text-align: center;
-    text-shadow: #053b50;
+    text-shadow:2px 2px 1px #050a0c;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    color: #eeeeee;
+    
+
 
 }
 footer {
@@ -137,15 +145,17 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
+        height: fit-content;
+        font-size: 400%;
         line-height: 75px;
         margin: 0 0.5rem;
+        
     }
 
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 60px;
     }
 }
 
