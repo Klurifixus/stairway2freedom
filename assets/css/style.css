@@ -88,17 +88,52 @@ main {
     /*push footer down flex*/
     flex: 1 0 auto;
     margin-top: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+/*Hero styles*/
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0; /* Adjust padding as needed */
+}
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hero-background img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
 footer {
     background-color: #64ccc5;
 }
 /*Footer social media icons*/
 .social-icons {
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .social-icons a {
     margin-right: 40px;
     color:#ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
