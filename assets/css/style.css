@@ -89,6 +89,7 @@ main {
     /*push footer down flex*/
     flex: 1 0 auto;
     margin-top: 48px;
+    background-color: #64ccc5;
 }
 
 .hero {
@@ -97,6 +98,7 @@ background: url(../images/pier-bus-long.jpg) no-repeat center center/cover;
 height: 400px; 
 width:100%;
 
+
 }
 .hero-content {
     display:flex;
@@ -104,14 +106,14 @@ width:100%;
     text-shadow:2px 2px 1px #050a0c;
     align-items: center;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 200px;
     color: #eeeeee;
     
 
 
 }
 footer {
-    background-color: #64ccc5;
+    background-color: #053b50;
 }
 /*Footer social media icons*/
 .social-icons {
